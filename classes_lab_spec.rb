@@ -79,4 +79,24 @@ class TestCodeclanStudent < Minitest::Test
   def test_points_tracking
     assert_equal(1, @team.points_tracking(1))
   end
+
+# Extra tests, proving win, loss and getting 0 from initial test
+  # 
+  # def test_team_starts_with_0_points
+  #   team = Team.new ("Team1")
+  #   assert_equal(0, team.points)
+  # end
+  #
+  # def test_team_can_play_game__win
+  #   team = Team.new ("Team1")
+  #   team.play_game(:win)
+  #   assert_equal(1, team.points)
+  # end
+  #
+  # def test_team_can_play_game__lose
+  #   team = Team.new ("Team2")
+  #   team.play_game(:loss)
+  #   assert_equal(0, team.points)
+  # end
+
 end

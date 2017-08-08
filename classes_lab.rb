@@ -69,6 +69,7 @@ class SportingTeam
     for player in @players do
       if player == name
       return true
+      # return true if(player == name)
       end
     end
     return player_found
@@ -78,4 +79,12 @@ class SportingTeam
     @points += points
     return @points
   end
-end
+
+  # write functions for wins and losses
+#   def play_game
+  #   if(result == :win)
+  #     @points += 1
+#     @points += 1 if(result == :win) (this is a guard statement)
+#   end
+#
+# end
